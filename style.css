@@ -1,0 +1,158 @@
+body {
+    background: linear-gradient(#D3CCE3, #E9E4F0);
+}
+
+
+/* nav section  */
+
+.nav-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    /* position: fixed;  */
+}
+
+.nav-container img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    opacity: 0.65;
+    font-family: 'Macondo', cursive;
+    transition: 1s;
+}
+
+.nav-links li a:hover::after {
+    content: '';
+    display: block;
+    border: 2px solid #ff9472;
+    margin: auto;
+    width: 100%;
+}
+
+
+/* messenger body  */
+
+.messenger-body {
+    width: 80%;
+    margin: 3% auto;
+    /* height: 70vh;  */
+    /* background-color: seagreen;  */
+}
+
+
+/* left side  */
+
+.messenger-body .left {
+    width: 40%;
+    display: inline-block;
+    padding: 2rem;
+    /* background-color: #1e70c8;  */
+}
+
+.messenger-body .left h1 {
+    background: -webkit-linear-gradient(to right, #f2709c, #ff9472);
+    background: linear-gradient(to right, #1e70c8, #4ec1d0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+
+.messenger-body .left p {
+    font-family: 'Macondo', cursive;
+}
+
+.messenger-body .left input,
+.hero-btn {
+    margin-top: 0.7rem;
+    border-radius: 1.2rem;
+    text-align: center;
+}
+
+.hero-btn {
+    background-color: #FFB88C;
+    color: steelblue;
+    width: 6rem;
+    border: none;
+    padding: 0.5rem;
+}
+
+.messenger-body .left span a {
+    text-decoration: underline;
+    font-size: 0.7rem;
+    margin-left: 0.5rem;
+}
+
+.messenger-body .left .check-box {
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+.messenger-body .left .check-box span {
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.messenger-body .left img {
+    width: 10rem;
+    height: 3rem;
+    border-radius: 10px;
+}
+
+.messenger-body .right {
+    display: inline-block;
+    /* background-color: red;  */
+}
+
+.messenger-body .right img {
+    width: 10rem;
+    height: 15rem;
+    transform: translate(90%, -80%);
+    border-radius: 1.2rem;
+}
+
+
+/* footer section  */
+
+.footer {
+    width: 90%;
+    margin: 3.5% auto;
+    /* transform: translateY(-90%);  */
+}
+
+.footer span {
+    font-size: 0.7rem;
+}
+
+.footer .footer-links {
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-90%);
+}
+
+.footer .footer-links li {
+    list-style: none;
+}
+
+.footer .footer-links li a {
+    font-size: 0.7rem;
+    margin-left: 1rem;
+}
